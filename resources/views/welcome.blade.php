@@ -4,7 +4,7 @@
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="{{ asset('assets/templates/user/img/fav.png') }}">
+    <link rel="shortcut icon" href="{{ asset('asset/templates/user/img/fav.png') }}">
     <!-- Author Meta -->
     <meta name="author" content="CodePixar">
     <!-- Meta Description -->
@@ -16,14 +16,14 @@
     <!-- Site Title -->
     <title>Merch Store</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/templates/user/css/linearicons.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/user/css/owl.carousel.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/user/css/themify-icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/user/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/user/css/nice-select.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/user/css/nouislider.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/user/css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/user/css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/templates/user/css/linearicons.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/templates/user/css/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/templates/user/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/templates/user/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/templates/user/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/templates/user/css/nouislider.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/templates/user/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/templates/user/css/main.css') }}">
 </head>
 <body>
     @include('sweetalert::alert')
@@ -34,12 +34,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="login_box_img">
-                        <img class="img-fluid" src="{{ asset('assets/templates/user/img/login.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('asset/templates/user/img/login.jpg') }}" alt="">
                         <div class="hover">
                             <h4>New to our website?</h4>
-                            <p>There are advances being made in science and technology everyday, and a
-                                good example of this is the</p>
-                            <a class="primary-btn" href="registration.html">Create an Account</a>
+                            <p>There are advances being made in science and technology everyday, and agood example of this is the</p>
+                            <a class="primary-btn" href="{{ route('register') }}">Create an Account</a>
                         </div>
                     </div>
                 </div>
@@ -67,20 +66,20 @@
     </section>
     <!--================End Login Box Area =================-->
 
-    <script src="{{ asset('assets/templates/user/js/vendor/jquery-2.2.4.min.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/vendor/jquery-2.2.4.min.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
         integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
         crossorigin="anonymous"></script>
-    <script src="{{ asset('assets/templates/user/js/vendor/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/user/js/jquery.ajaxchimp.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/user/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/user/js/jquery.sticky.js') }}"></script>
-    <script src="{{ asset('assets/templates/user/js/nouislider.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/user/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/user/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/vendor/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/nouislider.min.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/owl.carousel.min.js') }}"></script>
     <!--gmaps Js-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="{{ asset('assets/templates/user/js/gmaps.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/user/js/main.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/gmaps.min.js') }}"></script>
+    <script src="{{ asset('asset/templates/user/js/main.js') }}"></script>
 </body>
 </html>
