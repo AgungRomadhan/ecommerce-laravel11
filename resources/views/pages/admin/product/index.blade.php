@@ -28,7 +28,7 @@
                         @php
                             $no = 0
                         @endphp
-                        @forelse ($products as $item)
+                        @forelse ($data as $item)
                         <tr>
                             <td>{{ $no += 1 }}</td>
                             <td>{{ $item->name }}</td>
